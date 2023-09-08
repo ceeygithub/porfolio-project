@@ -11,6 +11,14 @@ sans-serif;*/
 body{
 font-family: var(--default-fontfamliy);
 }
+h2{
+    font-size: 64px;
+}
+p{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 30px;
+}
 .hero{
     background-color:  var(--primary-color);
     text-align: center;
@@ -37,4 +45,12 @@ font-family: var(--default-fontfamliy);
  border-radius: 4px;
  border-style: none;
  padding: 15px 30px;
+ font-size: 18px;
+}
+.btn-outline{
+    color: var(--tertiary-color);
+    padding: 15px 30px;
+    border-radius: 4px;
+    font-size: 18px;
+    border: 1px solid var(--tertiary-color);
 }
