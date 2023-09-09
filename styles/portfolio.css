@@ -7,38 +7,35 @@
 }
 body{
 font-family: var(--default-fontfamliy);
-margin: 0;
-padding: 0;
+
 }
-h2{
-    font-size: 64px;
-}
-p{
+@media screen and (min-width: 600px) {
+    h1 {
+        font-size: 90px;
+    }
+
+    h2 {
+        font-size: 48px;
+    }
+p {
     font-size: 16px;
     font-weight: normal;
     line-height: 30px;
 }
+    .email-link {
+        display: flex;
+        justify-content: center;
+        font-size: 28px;
+    }
+}
+
+
 .hero{
     background-color:  var(--primary-color);
-    text-align: center;
+   
 }
-.hero h2{
-   color: rgba(39, 33, 66, 1);
-    font-size: 36px;
-    font-weight: bold;
 
-}
-.hero h1{
-    font-size: 96px;
-    font-family: var(--heading-fontfamily);
-    color: gba(0, 0, 0, 1);
-}
-.hero p{
-    font-size: 24px;
-    font-weight: normal;
-    color: rgba(39, 33, 66, 1);
-}
-.hero-btn{
+.btn-fill{
     background-color:var(--tertiary-color);
  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
  border-radius: 4px;
