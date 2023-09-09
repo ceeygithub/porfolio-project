@@ -1,7 +1,4 @@
-/*font-family: 'Playfair Display',
-serif;
-font-family: 'Poppins',
-sans-serif;*/
+
 :root{
     --primary-color:#f9f7fe;
     --tertiary-color:rgba(108, 99, 255, 1);
@@ -10,6 +7,8 @@ sans-serif;*/
 }
 body{
 font-family: var(--default-fontfamliy);
+margin: 0;
+padding: 0;
 }
 h2{
     font-size: 64px;
@@ -59,3 +58,7 @@ p{
  .inquiry{
     background-color: #F9F7FE;
  }
+.work-hero{
+    margin-top: 100px ;
+    margin-bottom: 30px;
+}
