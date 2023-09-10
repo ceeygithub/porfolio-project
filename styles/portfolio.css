@@ -27,6 +27,13 @@ p {
         justify-content: center;
         font-size: 28px;
     }
+        .about-h1 {
+            font-size: 64px;
+        }
+    
+        .about-h2 {
+            font-size: 18px;
+        }
 }
 
 
