@@ -34,6 +34,10 @@ p {
         .about-h2 {
             font-size: 18px;
         }
+     .work-hero{
+    margin-top: 100px ;
+    margin-bottom: 30px;
+}
 }
 
 
@@ -62,10 +66,7 @@ p {
  .inquiry{
     background-color: #F9F7FE;
  }
-.work-hero{
-    margin-top: 100px ;
-    margin-bottom: 30px;
-}
+
 .heading{
     font-family: var(--heading-fontfamily);
 }
