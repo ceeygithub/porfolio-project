@@ -22,11 +22,7 @@ p {
     font-weight: normal;
     line-height: 30px;
 }
-    .email-link {
-        display: flex;
-        justify-content: center;
-        font-size: 28px;
-    }
+   
         .about-h1 {
             font-size: 64px;
         }
@@ -73,3 +69,25 @@ p {
 .nav-link:hover {
     color: var(--tertiary-color);
 }
+ .email-link {
+     text-align: center;
+     font-size: 24px;
+     text-decoration: none;
+     color: black;
+ }
+ .email-link:hover{
+    color: var(--tertiary-color);
+ }
+ .socials {
+    background:var(--primary-color);
+    border-radius: 100%;
+color: var(--tertiary-color);
+margin: 0 20px;
+padding: 10px 14px;
+    
+ }
+ .socials:hover  {
+    color: white;
+    background: var(--tertiary-color);
+ }
+ 
