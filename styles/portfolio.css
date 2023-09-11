@@ -70,3 +70,6 @@ p {
 .heading{
     font-family: var(--heading-fontfamily);
 }
+.nav-link:hover {
+    color: var(--tertiary-color);
+}
