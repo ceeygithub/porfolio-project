@@ -1,7 +1,7 @@
 
 :root{
     --primary-color:#f9f7fe;
-    --tertiary-color:rgba(108, 99, 255, 1);
+    --tertiary-color:#6c63ff;
    --default-fontfamliy:'Poppins',  sans-serif;
    --heading-fontfamily:'Playfair Display',serif;
 }
@@ -30,13 +30,13 @@ p {
         .about-h2 {
             font-size: 18px;
         }
-     .work-hero{
-    margin-top: 100px ;
+    
+}
+
+ .work-hero {
+    margin-top: 100px;
     margin-bottom: 30px;
-}
-}
-
-
+ }
 .hero{
     background-color:  var(--primary-color);
    
@@ -90,4 +90,6 @@ padding: 10px 14px;
     color: white;
     background: var(--tertiary-color);
  }
- 
+ .active-link{
+    color: var(--tertiary-color);
+ }
